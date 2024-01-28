@@ -2,11 +2,11 @@
 pragma solidity >=0.8.23;
 import {AssertOwnersBase} from "../base/AssertOwnersBase.sol";
 
-contract AssertOwnersMainnet is AssertOwnersBase {
+contract AssertOwnersOptimism is AssertOwnersBase {
     constructor()
         AssertOwnersBase(
-            0xc005dc82818d67AF737725bD4bf75435d065D239,
-            0x75EE15Ee1B4A75Fa3e2fDF5DF3253c25599cc659
+            0xd4C1905BB1D26BC93DAC913e13CaCC278CdCC80D,
+            0xE047cb95FB3b7117989e911c6afb34771183fC35
         )
     {}
 

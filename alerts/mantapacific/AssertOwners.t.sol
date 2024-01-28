@@ -5,8 +5,8 @@ import {AssertOwnersBase} from "../base/AssertOwnersBase.sol";
 contract AssertOwnersMainnet is AssertOwnersBase {
     constructor()
         AssertOwnersBase(
-            0xc005dc82818d67AF737725bD4bf75435d065D239,
-            0x75EE15Ee1B4A75Fa3e2fDF5DF3253c25599cc659
+            0x3a464f746D23Ab22155710f44dB16dcA53e0775E,
+            0x2f2aFaE1139Ce54feFC03593FeE8AB2aDF4a85A7
         )
     {}
 

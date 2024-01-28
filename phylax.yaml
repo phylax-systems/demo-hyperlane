@@ -1,0 +1,95 @@
+alerts:
+  - name: mainnet-alert
+    on:
+      - rule: 'origin == hash "mainnet"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: mainnet
+  - name: arbitrum-alert
+    on:
+      - rule: 'origin == hash "arbitrum"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: arbitrum
+  - name: optimism-alert
+    on:
+      - rule: 'origin == hash "optimism"'
+        interval:
+    foundryProjectRootPath: alerts
+    foundryProfile: optimism
+  - name: gnosis-alert
+    on:
+      - rule: 'origin == hash "gnosis"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: gnosis
+  - name: scroll-alert
+    on:
+      - rule: 'origin == hash "scroll"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: scroll
+  - name: base-alert
+    on:
+      - rule: 'origin == hash "base"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: base
+  - name: polygonzkevm-alert
+    on:
+      - rule: 'origin == hash "polygonzkevm"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: polygonzkevm
+  - name: celo-alert
+    on:
+      - rule: 'origin == hash "celo"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: celo
+  - name: avalanche-alert
+    on:
+      - rule: 'origin == hash "avalanche"'
+        interval: 1
+    foundryProjectRootPath: alerts
+    foundryProfile: avalanche
+watchers:
+  - name: mainnet
+    chain: mainnet
+    ethRpc: "${ETH_RPC}"
+  - name: optimism
+    chain: optimism
+    ethRpc: "${OPTIMISM_ETH_RPC}"
+  - name: arbitrum
+    chain: arbitrum
+    ethRpc: "${ARBITRUM_ETH_RPC}"
+  - name: bsc
+    chain: bsc
+    ethRpc: "${BSC_ETH_RPC}"
+  - name: polygon
+    chain: polygon
+    ethRpc: "${POLYGON_ETH_RPC}"
+  - name: moonbeam
+    chain: moonbeam
+    ethRpc: "${MOONBEAM_ETH_RPC}"
+  - name: matic
+    chain: matic
+    ethRpc: "${MATIC_ETH_RPC}"
+  - name: gnosis
+    chain: gnosis
+    ethRpc: "${GNOSIS_ETH_RPC}"
+  - name: scroll
+    chain: scroll
+    ethRpc: "${SCROLL_ETH_RPC}"
+  - name: base
+    chain: base
+    ethRpc: "${BASE_ETH_RPC}"
+  - name: polygonzkevm
+    chain: polygonzkevm
+    ethRpc: "${POLYGONZKEVM_ETH_RPC}"
+  - name: celo
+    chain: celo
+    ethRpc: "${CELO_ETH_RPC}"
+  - name: avalanche
+    chain: avalanche
+    ethRpc: "${AVALANCHE_ETH_RPC}"
