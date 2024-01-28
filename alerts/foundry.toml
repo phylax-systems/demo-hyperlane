@@ -1,0 +1,76 @@
+[profile.optimism]
+test = "./optimism"
+out = "./out/optimism"
+cache_path = "./cache/optimism"
+
+
+[profile.mainnet]
+test = "./mainnet"
+out = "./out/mainnet"
+cache_path = "./cache/mainnet"
+
+[profile.arbitrum]
+test = "./arbitrum"
+out = "./out/arbitrum"
+cache_path = "./cache/arbitrum"
+
+[profile.gnosis]
+test = "./gnosis"
+out = "./out/gnosis"
+cache_path = "./cache/gnosis"
+
+[profile.scroll]
+test = "./scroll"
+out = "./out/scroll"
+cache_path = "./cache/scroll"
+
+[profile.base]
+test = "./op-base"
+out = "./out/op-base"
+cache_path = "./cache/op-base"
+
+[profile.polygonzkevm]
+test = "./polygonzkevm"
+out = "./out/polygonzkevm"
+cache_path = "./cache/polygonzkevm"
+
+[profile.celo]
+test = "./celo"
+out = "./out/celo"
+cache_path = "./cache/celo"
+
+[profile.avalanche]
+test = "./avalanche"
+out = "./out/avalanche"
+cache_path = "./cache/avalanche"
+
+[profile.moonbeam]
+test = "./moonbeam"
+out = "./out/moonbeam"
+cache_path = "./cache/moonbeam"
+
+
+[profile.bsc]
+test = "./bsc"
+out = "./out/bsc"
+cache_path = "./cache/bsc"
+
+[profile.polygon]
+test = "./polygon"
+out = "./out/polygon"
+cache_path = "./cache/polygon"
+
+
+[rpc_endpoints]
+mainnet = "${ETH_RPC}"
+optimism = "${OPTIMISM_ETH_RPC}"
+arbitrum = "${ARBITRUM_ETH_RPC}"
+gnosis = "${GNOSIS_ETH_RPC}"
+scroll = "${SCROLL_ETH_RPC}"
+base = "${BASE_ETH_RPC}"
+polygonzkevm = "${POLYGONZKEVM_ETH_RPC}"
+celo = "${CELO_ETH_RPC}"
+avalanche = "${AVALANCHE_ETH_RPC}"
+bsc = "${BSC_ETH_RPC}"
+moonbeam = "${MOONBEAM_ETH_RPC}"
+polygon = "${POLYGON_ETH_RPC}"

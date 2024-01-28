@@ -13,6 +13,6 @@ contract AssertOwnersPolygonzkvm is AssertOwnersBase {
     uint256 mainnet;
 
     function setUp() public {
-        mainnet = enableChain("mainnet");
+        mainnet = enableChain("polygonzkevm");
     }
 }
