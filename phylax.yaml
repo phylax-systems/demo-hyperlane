@@ -72,9 +72,6 @@ watchers:
   - name: moonbeam
     chain: moonbeam
     ethRpc: "${MOONBEAM_ETH_RPC}"
-  - name: matic
-    chain: matic
-    ethRpc: "${MATIC_ETH_RPC}"
   - name: gnosis
     chain: gnosis
     ethRpc: "${GNOSIS_ETH_RPC}"
@@ -84,8 +81,8 @@ watchers:
   - name: base
     chain: base
     ethRpc: "${BASE_ETH_RPC}"
-  - name: polygonzkevm
-    chain: polygonzkevm
+  - name: polygon_zkevm
+    chain: polygon_zkevm
     ethRpc: "${POLYGONZKEVM_ETH_RPC}"
   - name: celo
     chain: celo
